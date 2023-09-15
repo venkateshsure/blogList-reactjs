@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+
+.list-con {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #616e7c;
+  padding: 5px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body {
+  align-self: flex-start;
+}
